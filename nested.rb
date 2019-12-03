@@ -1,4 +1,7 @@
-
+#describe "nested hash" do
+  #describe "hopper" do
+#    it "operates on the programmer_hash and returns the #value of the :grace_hopper key" do
+  #    expect(hopper).to eq({:known_for => "COBOL", :languages => ["COBOL", "FORTRAN"]})
 def hopper
 	programmer_hash = 
  		{
@@ -15,11 +18,12 @@ def hopper
           :languages => ["C"]
         }
      }
-
-
 end
 
-def alan_kay_is_known_for
+
+
+
+def alan_kay_is_known_for 
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
 	
 	programmer_hash = 
